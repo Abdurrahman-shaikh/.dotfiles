@@ -1,9 +1,8 @@
 #!/bin/sh
 
 xrdb merge ~/.Xresources 
-xbacklight -set 10 &
-feh --bg-fill ~/Pictures/wall/gruv.png &
-xset r rate 200 50 &
+xbacklight -set 10 &feh --bg-fill ~/.config/.dotfiles/wallpapers/10.png &
+feh --bg-fill ~/.config/.dotfiles/wallpapers/8.png &
 picom &
 
 dash ~/.config/chadwm/scripts/bar.sh &
